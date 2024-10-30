@@ -29,6 +29,30 @@ class Solution {
 }
 ```
 
+알고리즘 공부할 때 무슨 언어로 해야할지 못 고르겠어서 C#으로 일단 해보았다.<br>
+제일 많이 쓰이는건 Java, Python, C++ 이라는데 선택이 어렵구나!<br>
+
+I got deadrock when I have to choose programming language for Algorithm<br>
+Most algorithm language seems Java, Python, C++ but I can't chooooooooooooooooooooooooooooooooooooooooose.
+
+```Csharp
+public class Solution {
+    public int[] TwoSum(int[] nums, int target) {
+        int[] answer = {0,0};
+        for (int i=0; i<nums.Length-1; i++) {
+            for (int j=1; j<nums.Length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    answer[0] = i;
+                    answer[1] = j;
+                    break;
+                }
+            }
+        }
+        return answer;
+    }
+}
+```
+
 틀렸던거
 -------------
 아무생각 없이 i, j를 넣어주지 않고 nums[i], nums[j]를 넣어줘서 틀렸다.
