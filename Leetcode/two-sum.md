@@ -5,10 +5,10 @@ https://leetcode.com/problems/two-sum/
 -------------
 모든 배열을 돌면서 target과 같은 합이 있으면 그걸 답에 넣고 break하여 빠져나왔다.
 
-Me (Poor English)
+Me (Poor English)<br>
 Explore every array and where is same value(nums sum of two index) as "target", if that appeared put that value in answer and escape with break.
 
-GPT
+GPT<br>
 Explore each element in the array, and if the sum of two indices matches the "target" value, add that value to "answer" and break out of the loop.
 
 ```java
@@ -57,10 +57,10 @@ public class Solution {
 -------------
 아무생각 없이 i, j를 넣어주지 않고 nums[i], nums[j]를 넣어줘서 틀렸다.
 
-Me
+Me<br>
 I thought useless way so I got wrong.
 
-GPT
+GPT<br>
 I approached it in an inefficient way, so I made a mistake.
 
 ```java
