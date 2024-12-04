@@ -7,6 +7,3 @@ Today I Learned
 
 2. 파일에 내용을 추가한 경우
 > "(사이트) (번호) 보충"으로 한다. [2024-10-23 추가]
-
-# 마일스톤 테스트
-https://github.com/gusgotoyu365/TIL/milestone/1
